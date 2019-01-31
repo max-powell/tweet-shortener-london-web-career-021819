@@ -1,7 +1,6 @@
 require "pry"
 
-def dictionary
-  dictionary = {
+dictionary = {
     "hello" => "hi",
     "to" => "2",
     "two" => "2",
@@ -13,7 +12,7 @@ def dictionary
     "at" => "@",
     "and" => "&"
   }
-end
+
 
 def word_substituter(tweet)
   words = tweet.split
