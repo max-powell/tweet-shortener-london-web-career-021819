@@ -21,6 +21,7 @@ def word_substituter(tweet)
     if dictionary.include?(word)
       words[index] = dictionary[word]
       binding.pry
+    end
 
   end
 end
